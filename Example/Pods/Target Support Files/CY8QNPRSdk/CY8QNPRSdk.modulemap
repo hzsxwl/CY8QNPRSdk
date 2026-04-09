@@ -1,0 +1,6 @@
+framework module CY8QNPRSdk {
+  umbrella header "CY8QNPRSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

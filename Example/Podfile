@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CY8QNPRSdk_Example' do
+  pod 'CY8QNPRSdk', :path => '../'
+
+  target 'CY8QNPRSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
